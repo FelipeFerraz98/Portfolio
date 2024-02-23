@@ -1,0 +1,111 @@
+{
+    "name": "Felipe Ferraz",
+    "title": "Junior Developer",
+    "location": {
+        "city": "Campo Limpo Paulista",
+        "state": "São Paulo",
+        "country": "Brasil"
+    },
+    "phone": "(11) 97552-2976",
+    "email": "felipeferraz1398@gmail.com",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "JavaScript",
+                "image": "javascript.svg"
+            },
+            {
+                "name": "C-sharp",
+                "image": "csharp.svg"
+            },
+            {
+                "name": "Python",
+                "image": "python.svg"
+            },
+            {
+                "name": "HTML",
+                "image": "html.svg"
+            },
+            {
+                "name": "CSS",
+                "image": "css.svg"
+            },
+            {
+                "name": "Git",
+                "image": "git.svg"
+            },
+            {
+                "name": "GitHub",
+                "image": "github.svg"
+            },
+            {
+                "name": "C",
+                "image": "c.svg"
+            },
+            {
+                "name": "Java",
+                "image": "java.svg"
+            }
+        ],
+
+        "softSkills": [
+            "Boa comunicação",
+            "Resolução de problemas",
+            "Proatividade e autonomia",
+            "Aprendizado rápido",
+            "Organização e gestão de informações",
+            "Trabalho em equipe",
+            "Adaptabilidade",
+            "Pensamento analítico",
+            "Gestão do tempo"
+        ]        
+    },
+    "languages": [
+        "Português BR",
+        "Inglês (intermediário)"
+    ],
+
+    "projects": [
+        {
+        
+            "name": "Chess Game",
+            "url": "https://github.com/FelipeFerraz98/Chess-Game",
+            "github": true
+        
+        },
+
+        {
+            "name": "Pokedex",
+            "url": "https://github.com/FelipeFerraz98/Pokedex",
+            "github": true
+        },
+
+        {
+            "name": "Pokedex",
+            "url": "https://github.com/FelipeFerraz98/workshop-asp-net-core-mvc",
+            "github": true
+        },
+
+        {
+            "name": "Search Movie or Series in API",
+            "url": "https://github.com/FelipeFerraz98/Search-Movie-or-Series-in-API",
+            "github": true
+        }
+
+],  
+
+    "experience": [
+        {
+            "name": "Suporte TI - Monitoramento / Dazsoft",
+            "period": "Abr 2023 - Atual",
+            "description": "Experiência sólida em suporte técnico com foco na análise detalhada de problemas, incluindo análise SIP, logs e pacotes de dados. Realizo testes abrangentes para identificar falhas no software e forneço evidências técnicas para desenvolvedores. Além disso, monitoro servidores usando Zabbix para garantir desempenho otimizado. Ofereço suporte completo ao cliente, desde resolução de falhas até treinamento via Google Meet. Encaminho problemas para equipes especializadas e realizo configurações remotas para solucionar problemas eficientemente."
+        },
+
+        {
+            "name": "Técnico em Informática",
+            "period": "Jan 2019 - Jul 2023",
+            "description": "Montagem e manutenção de computadores, formatação, remoção de vírus, instalação de sistemas operacionais e software, configuração de rede, suporte técnico a clientes."
+        }
+    ]
+  }
+  
