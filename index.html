@@ -32,17 +32,17 @@
     <main class="main">
 
         <header class="header">
-            <img src="./assets/img/perfil.png" alt="Foto de Felipe Ferraz" class="perfil">
-            <h1 class="title">Olá,<br> eu sou o<br> Felipe Ferraz</h1>
+            <img src="" alt="Foto de Felipe Ferraz" class="perfil" id="profile.photo">
+            <h1 class="title">Olá,<br> eu sou o<br> <span id="profile.name"> Loading...</span></h1>
             
             <div class="information">
-                <p class="job">Junior Developer</p>
-                <p class="location">São Paulo - BR</p>
+                <p class="job" id="profile.job">Loading...</p>
+                <p class="location" id="profile.location">Loading...</p>
                 <p class="whatsapp">
-                    <a href="phone:(11) 97552-2976">(11) 97552-2976</a>
+                    <a href="" id="profile.phone">Loading...</a>
                 </p>
                 <p class="email">
-                    <a href="malito:felipeferraz1398@gmail.com">felipeferraz1398@gmail.com</a>
+                    <a href="" id="profile.email">Loading...</a>
                 </p>
             </div>
             
@@ -56,49 +56,17 @@
 
                     <section class="tools">
                         <h3>Habilidades profissionais:</h3>
-                        <ul>
+                        <ul id="profile.skills.hardSkills">
                             <li>
-                                <img src="./assets/img/icons/javascript.svg" alt="JavaScript">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/c-sharp.svg" alt="C#">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/python.svg" alt="Python">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/html.svg" alt="HTML">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/css.svg" alt="CSS">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/git.svg" alt="Git">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/github2.svg" alt="GitHub">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/java.svg" alt="Java">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/c.svg" alt="C">
+                                Loading...
                             </li>
                         </ul>
                     </section>
                     
                     <section class="personal">
                         <h3>Habilidades pessoais:</h3>
-                        <ul>
-                            <li>Boa comunicação</li>
-                            <li>Resolução de problemas</li>
-                            <li>Proatividade e autonomia</li>
-                            <li>Aprendizado rápido</li>
-                            <li>Organização e gestão de informações</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Adaptabilidade</li>
-                            <li>Pensamento analítico</li>
-                            <li>Gestão do tempo</li>
+                        <ul id="profile.skills.softSkills">
+                            <li>Loading...</li>
                         </ul>
                     </section>
                     
@@ -109,9 +77,8 @@
         <section class="acordeon">
             <button class="trigger" type="button">Idiomas</button>
             <div class="content">
-                <ul class="languages">
-                    <li>Portugês</li>
-                    <li>Inglês</li>
+                <ul class="languages" id="profile.languages">
+                    <li>Loading...</li>
                 </ul>
                 
             </div>
@@ -121,8 +88,7 @@
             <section class="acordeon">
                 <button class="trigger" type="button">Projetos</button>
                 <div class="content">
-                    <h2 class="title">Meus projetos recentes</h2>
-                    <ul class="portfolio">
+                    <ul class="portfolio" id="profile.projects">
                     </ul>
                     
                 </div>
@@ -131,43 +97,18 @@
                 <section class="acordeon">
                     <button class="trigger" type="button">Experiência</button>
                     <div class="content">
-                        <ul class="experience">
+                        <ul class="experience" id="profile.professionalExperience">
                             <li>
-                                <h3 class="title">Suporte TI / Dazsoft</h3>
-                                <span class="period">Abr 2023 - Atual</span>
-                                <p>
-                                    Atendimento telefônico e chamados via CRM Way;<br>
-                                    Suporte completo a cliente, identificação e resolução de falhas, teste de replicação de falhas no software, assistência na configuração do software, esclarecimento de dúvidas;<br>
-                                    Realização de acesso remoto durante os atendimentos aos clientes para auxílio em configurações ou verificação de problemas;<br>
-                                    Identificação e análise de problemas técnicos relatados pelos clientes;<br>
-                                    Análise SIP, logs, pacotes de dados e siptraces;<br>
-                                    Encaminhamento de chamados para equipes de infraestrutura e desenvolvimento;<br>
-                                    Fornecimento de evidências e informações técnicas para correção eficaz;<br>
-                                    Identificação e replicação de problemas de software para envio de evidências aos desenvolvedores.<br>
-                                    Monitoramento de servidores via Zabbix para evitar lotação de disco e problemas de desempenho;<br>
-                                    Implantação de novos clientes e treinamento via Google Meet;<br>
-                                    Suporte técnico interno, troca de periféricos e configuração de dispositivos;<br>
-                                </p>
+                                Loading...
                             </li>
-                            <li>
-                                <h3 class="title">Técnico em Informática</h3>
-                                <span class="period">Jan de 2019 - Jul de 2023</span>
-                                <p>Montagem de computadores;<br>
-                                    Limpeza de componentes;<br>
-                                    Formatação de computadores;<br>
-                                    Remoção de Vírus;<br>
-                                    Instalação de Sistemas Operacionais;<br>
-                                    Instalação de Software;<br>
-                                    Configuração de Rede;<br>
-                                    Suporte técnico a clientes.<br></p>
-                            </li> 
                         </ul>
                         
                     </div>
                     </section>
         </main>
-        
-        <script src="./assets/js/repository.js"></script>
+
+        <script src="./assets/js/api.js"></script>
+        <script src="./assets/js/main.js"></script>
         <script src="./assets/js/acordeon.js"></script>
     </body>
     

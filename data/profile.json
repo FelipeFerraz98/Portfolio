@@ -1,9 +1,10 @@
 {
     "name": "Felipe Ferraz",
     "title": "Junior Developer",
+    "photo": "https://avatars.githubusercontent.com/u/111993117",
     "location": {
         "city": "Campo Limpo Paulista",
-        "state": "São Paulo",
+        "state": "SP",
         "country": "Brasil"
     },
     "phone": "(11) 97552-2976",
@@ -12,40 +13,40 @@
         "hardSkills": [
             {
                 "name": "JavaScript",
-                "image": "javascript.svg"
-            },
-            {
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/javascript.svg"
+              },
+              {
                 "name": "C-sharp",
-                "image": "csharp.svg"
-            },
-            {
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/c-sharp.svg"
+              },
+              {
                 "name": "Python",
-                "image": "python.svg"
-            },
-            {
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/python.svg"
+              },
+              {
                 "name": "HTML",
-                "image": "html.svg"
-            },
-            {
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/html.svg"
+              },
+              {
                 "name": "CSS",
-                "image": "css.svg"
-            },
-            {
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/css.svg"
+              },
+              {
                 "name": "Git",
-                "image": "git.svg"
-            },
-            {
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/git.svg"
+              },
+              {
                 "name": "GitHub",
-                "image": "github.svg"
-            },
-            {
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/github.svg"
+              },
+              {
                 "name": "C",
-                "image": "c.svg"
-            },
-            {
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/c.svg"
+              },
+              {
                 "name": "Java",
-                "image": "java.svg"
-            }
+                "image": "https://raw.githubusercontent.com/FelipeFerraz98/Portfolio/main/assets/img/icons/java.svg"
+              }
         ],
 
         "softSkills": [
@@ -81,7 +82,7 @@
         },
 
         {
-            "name": "Pokedex",
+            "name": "Workshop Asp Net Core MVC",
             "url": "https://github.com/FelipeFerraz98/workshop-asp-net-core-mvc",
             "github": true
         },
@@ -96,7 +97,7 @@
 
     "experience": [
         {
-            "name": "Suporte TI - Monitoramento / Dazsoft",
+            "name": "Suporte/Monitoramento/Implantação - Dazsoft",
             "period": "Abr 2023 - Atual",
             "description": "Experiência sólida em suporte técnico com foco na análise detalhada de problemas, incluindo análise SIP, logs e pacotes de dados. Realizo testes abrangentes para identificar falhas no software e forneço evidências técnicas para desenvolvedores. Além disso, monitoro servidores usando Zabbix para garantir desempenho otimizado. Ofereço suporte completo ao cliente, desde resolução de falhas até treinamento via Google Meet. Encaminho problemas para equipes especializadas e realizo configurações remotas para solucionar problemas eficientemente."
         },
